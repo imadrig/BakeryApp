@@ -1,51 +1,28 @@
-# BakeryApp
-Week 2: OOP - Group Project BakeryApp
+Create at least 15 
+baked goods and save it into a collection of data. Each baked good has a name, price, an expiration date, one or more diet restrictions (ie. gluten allergies), and quantity in stock. 
+The program should allow the user to search by diet restrictions and print all matching results. For a list of example products, see https://sensitivesweets.com/collections/breads (Links to an external site.)
+
+Group Members: Cassie, Ingrid, and Joyce
+
+All processes must happen in Classes, not in the main method of a Main class.
+
+Input:
+
+Ask the user for restrictions? 
 
 
-MULIT-GRAIN WHITE BREAD
+Process: 
 
-	restrictions:Dairy, Soy, Nuts, 
-	
-BANANA BREAD
+Begin:
 
-	restrictions:Gluten, Soy, Nuts, 
-	
-6-PACK OF MUFFINS
+Prompt the user for restriction, then get restrictions.
 
-	restrictions:Soy, Nuts 
-GLUTEN FREE DINNER ROLLS
+Sort bakery item based on restriction.
 
-	restrictions:Gluten, Dairy
-BEST BREADS BOX
 
-	restrictions:Gluten, Dairy
-CINNAMON BREAD
+Output:
 
-	restrictions: dairy
-SOFT PIZZA CRUST
+Display: 
+List the items that contain dietary restrictions. 
 
-	restrictions:dairy
-SAVORY ROLLS
-
-	restrictions: Dairy
-LARGE HAMBURGER BUNS
-
-	restrictions:Gluten
-SPRING HAPPY SET
-
-	restrictions:Soy, Nuts, 
-CINNAMON RAISIN BREAD
-
-	restrictions:Gluten, Dairy
-DOZEN SAVORY EMPANADAS
-
-	restrictions:Soy, Nuts 
-BREAD PUDDING
-
-	restrictions:Soy, Nuts, 
-GINGERBREAD COOKIE
-
-	restrictions:Soy, Nuts, 
-CHOCOLATE CHIP COOKIE
-
-	restrictions:Dairy
+END;
