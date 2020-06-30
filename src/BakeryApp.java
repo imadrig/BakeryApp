@@ -6,6 +6,7 @@ public class BakeryApp {
         Scanner sc = new Scanner(System.in);
 
         ArrayList<Bakery> bakedItems = new ArrayList<>();
+
         ArrayList<String> dietaryRestrictions1 = new ArrayList<>();
         dietaryRestrictions1.add("gluten");
 
@@ -21,8 +22,8 @@ public class BakeryApp {
         dietaryRestrictions4.add("gluten");
 
         System.out.println("Hello, welcome to our bakery! Our products may contain soy, nuts, dairy and gluten. " +
-                "\nTo find an item you can eat, please enter the diet restriction (gluten, nuts, soy, or dairy)" +
-                "\nFor a list of all our items type and enter \"All\"");
+                "\nPlease enter a diet restriction (gluten, nuts, soy, or dairy)" +
+                "\n\t For a list of all our items type and enter \"All\"");
         String restriction = sc.nextLine();
 
 
@@ -74,12 +75,21 @@ public class BakeryApp {
 
 
         if (restriction.equalsIgnoreCase("all"))
-            for (Bakery list : bakedItems) {
-                System.out.println("\n" + list.itemDetails());
+            for (Bakery allItems : bakedItems) {
+                System.out.println("\n" + allItems.itemDetails());
                 System.out.println("---------");
             }
-        else {
-            if(restriction.equalsIgnoreCase("gluten"))
+
+           for (Bakery eachItem : bakedItems) {
+               for (String dietaryRestriction : eachItem.getDietRestriction()){
+                   if (dietaryRestriction.equalsIgnoreCase(restriction)){
+                       System.out.println(eachItem.itemDetails());
+                       System.out.println("---------");
+                   }
+               }
+
+
+
         }
 
 

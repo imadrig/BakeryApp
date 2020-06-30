@@ -4,14 +4,14 @@ public class Bakery {
     private String bakedGood;
     private double price;
     private String expDate;
-    private ArrayList <String> dietRestriction;
+    private ArrayList<String> dietRestriction;
     private int quantityInStock;
 
-    public Bakery(){
+    public Bakery() {
 
     }
 
-    public Bakery (String bakedGood, double price, String expDate, int quantityInStock, ArrayList <String> dietRestriction){
+    public Bakery(String bakedGood, double price, String expDate, int quantityInStock, ArrayList<String> dietRestriction) {
         this.bakedGood = bakedGood;
         this.price = price;
         this.expDate = expDate;
@@ -20,32 +20,34 @@ public class Bakery {
     }
 
     //Getter & setter baked good
-    public String getBakedGood(){
+    public String getBakedGood() {
         return this.bakedGood;
     }
 
-    public void setBakedGood(String bakedGood){
+    public void setBakedGood(String bakedGood) {
         this.bakedGood = bakedGood;
     }
 
     //Getter & setter price
-    public double getPrice(){
+    public double getPrice() {
         return this.price;
     }
-    public void setPrice(int price){
+
+    public void setPrice(int price) {
         this.price = price;
     }
 
     //Getter & setter expDate
-    public String getExpDate(){
+    public String getExpDate() {
         return this.expDate;
     }
-    public void setExpDate(String expDate){
+
+    public void setExpDate(String expDate) {
         this.expDate = expDate;
     }
 
     //Getter & setter quantity in stock
-    public int getQuantityInStock(){
+    public int getQuantityInStock() {
         return this.quantityInStock;
     }
 
@@ -54,7 +56,7 @@ public class Bakery {
     }
 
     //Getter & setter dietRestriction
-    public ArrayList<String> getDietRestriction(){
+    public ArrayList<String> getDietRestriction() {
         return this.dietRestriction;
     }
 
@@ -63,11 +65,12 @@ public class Bakery {
     }
 
     //For printing out item descriptions
-    public String itemDetails(){
+    public String itemDetails() {
         String msg = "";
-        for (String item : dietRestriction){
+        for (String item : dietRestriction) {
             msg = msg + item;
         }
         return this.bakedGood + "\nPrice: $" + this.price + "\nExpiration Date: " + this.expDate + "\nQuantity in Stock: " + this.quantityInStock + "\nContains:" + dietRestriction;
     }
+
 }
