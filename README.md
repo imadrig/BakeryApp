@@ -4,48 +4,48 @@ Week 2: OOP - Group Project BakeryApp
 
 MULIT-GRAIN WHITE BREAD
 
-	restrictions: Gluten, Dairy Free, Soy Free, Nuts Free, 
+	restrictions:Dairy, Soy, Nuts, 
 	
 BANANA BREAD
 
-	restrictions:Gluten, Soy Free, Nuts Free, 
+	restrictions:Gluten, Soy, Nuts, 
 	
 6-PACK OF MUFFINS
 
-	restrictions:Soy Free, Nuts Free 
+	restrictions:Soy, Nuts 
 GLUTEN FREE DINNER ROLLS
 
-	restrictions:Gluten, Dairy Free
+	restrictions:Gluten, Dairy
 BEST BREADS BOX
 
-	restrictions:Gluten, Dairy Free
+	restrictions:Gluten, Dairy
 CINNAMON BREAD
 
-	restrictions:tapioca, millet, rice
+	restrictions:tapioca, millet
 SOFT PIZZA CRUST
 
-	restrictions:tapioca, millet, rice
+	restrictions:dairy
 SAVORY ROLLS
 
-	restrictions: sodium bicarbonate, cornstarch
+	restrictions: Dairy
 LARGE HAMBURGER BUNS
 
-	restrictions: potato, and sorghum flours
+	restrictions:Gluten
 SPRING HAPPY SET
 
-	restrictions:Soy Free, Nuts Free, 
+	restrictions:Soy, Nuts, 
 CINNAMON RAISIN BREAD
 
-	restrictions:Gluten, Dairy Free
+	restrictions:Gluten, Dairy
 DOZEN SAVORY EMPANADAS
 
-	restrictions:Soy Free, Nuts Free 
+	restrictions:Soy, Nuts 
 BREAD PUDDING
 
-	restrictions:Soy Free, Nuts Free, 
+	restrictions:Soy, Nuts, 
 GINGERBREAD COOKIE
 
-	restrictions:Soy Free, Nuts Free, 
+	restrictions:Soy, Nuts, 
 CHOCOLATE CHIP COOKIE
 
-	restrictions:Dairy Free
+	restrictions:Dairy
