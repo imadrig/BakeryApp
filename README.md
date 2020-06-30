@@ -21,7 +21,7 @@ BEST BREADS BOX
 	restrictions:Gluten, Dairy
 CINNAMON BREAD
 
-	restrictions:tapioca, millet
+	restrictions: dairy
 SOFT PIZZA CRUST
 
 	restrictions:dairy
