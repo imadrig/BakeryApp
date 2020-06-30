@@ -20,11 +20,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="8713c0b1-6994-47db-a232-57e7ca499889" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/BakeryApp.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Bakery.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/BakeryApp.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Bakery.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Bakery.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -52,6 +50,21 @@
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
+    <property name="nodejs_package_manager_path" value="npm" />
+  </component>
+  <component name="RunManager">
+    <configuration name="BakeryApp" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="BakeryApp" />
+      <module name="BakeryApp" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.BakeryApp" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="SvnConfiguration">
     <configuration />
@@ -63,7 +76,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1593524216120</updated>
-      <workItem from="1593524218127" duration="281000" />
+      <workItem from="1593524218127" duration="8354000" />
     </task>
     <servers />
   </component>
@@ -80,5 +93,27 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="WindowStateProjectService">
+    <state width="1144" height="198" key="GridCell.Tab.0.bottom" timestamp="1593533210339">
+      <screen x="0" y="23" width="1280" height="777" />
+    </state>
+    <state width="1144" height="198" key="GridCell.Tab.0.bottom/0.23.1280.777/0.-697.1280.697@0.23.1280.777" timestamp="1593533210339" />
+    <state width="1144" height="198" key="GridCell.Tab.0.center" timestamp="1593533210336">
+      <screen x="0" y="23" width="1280" height="777" />
+    </state>
+    <state width="1144" height="198" key="GridCell.Tab.0.center/0.23.1280.777/0.-697.1280.697@0.23.1280.777" timestamp="1593533210336" />
+    <state width="1144" height="198" key="GridCell.Tab.0.left" timestamp="1593533210335">
+      <screen x="0" y="23" width="1280" height="777" />
+    </state>
+    <state width="1144" height="198" key="GridCell.Tab.0.left/0.23.1280.777/0.-697.1280.697@0.23.1280.777" timestamp="1593533210335" />
+    <state width="1144" height="198" key="GridCell.Tab.0.right" timestamp="1593533210337">
+      <screen x="0" y="23" width="1280" height="777" />
+    </state>
+    <state width="1144" height="198" key="GridCell.Tab.0.right/0.23.1280.777/0.-697.1280.697@0.23.1280.777" timestamp="1593533210337" />
+    <state x="333" y="124" width="670" height="676" key="search.everywhere.popup" timestamp="1593532340794">
+      <screen x="0" y="23" width="1280" height="777" />
+    </state>
+    <state x="333" y="124" width="670" height="676" key="search.everywhere.popup/0.23.1280.777/0.-697.1280.697@0.23.1280.777" timestamp="1593532340794" />
   </component>
 </project>
