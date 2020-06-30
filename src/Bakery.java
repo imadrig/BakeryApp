@@ -53,6 +53,16 @@ public class Bakery {
         this.quantityInStock = quantityInStock;
     }
 
+    //Getter & setter dietRestriction
+    public ArrayList<String> getDietRestriction(){
+        return this.dietRestriction;
+    }
+
+    public void setDietRestriction(ArrayList<String> dietRestriction) {
+        this.dietRestriction = dietRestriction;
+    }
+
+    //For printing out item descriptions
     public String itemDetails(){
         String msg = "";
         for (String item : dietRestriction){
