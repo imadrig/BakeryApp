@@ -68,6 +68,6 @@ public class Bakery {
         for (String item : dietRestriction){
             msg = msg + item;
         }
-        return this.bakedGood + "\n" + this.price + "\n" + this.expDate + "\n" + this.quantityInStock + "\n" + dietRestriction;
+        return this.bakedGood + "\nPrice: $" + this.price + "\nExpiration Date: " + this.expDate + "\nQuantity in Stock: " + this.quantityInStock + "\nContains:" + dietRestriction;
     }
 }
