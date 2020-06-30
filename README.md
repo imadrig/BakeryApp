@@ -4,21 +4,21 @@ Week 2: OOP - Group Project BakeryApp
 
 MULIT-GRAIN WHITE BREAD
 
-	restrictions: sodium bicarbonate, cornstarch
+	restrictions: Gluten, Dairy Free, Soy Free, Nuts Free, 
 	
 BANANA BREAD
 
-	restrictions:sodium bicarbonate, cornstarch
+	restrictions:Gluten, Soy Free, Nuts Free, 
 	
 6-PACK OF MUFFINS
 
-	restrictions:sorghum, potato, tapioca flours
+	restrictions:Soy Free, Nuts Free 
 GLUTEN FREE DINNER ROLLS
 
-	restrictions:monocalcium phosphate
+	restrictions:Gluten, Dairy Free
 BEST BREADS BOX
 
-	restrictions:sodium bicarbonate, cornstarch
+	restrictions:Gluten, Dairy Free
 CINNAMON BREAD
 
 	restrictions:tapioca, millet, rice
@@ -33,19 +33,19 @@ LARGE HAMBURGER BUNS
 	restrictions: potato, and sorghum flours
 SPRING HAPPY SET
 
-	restrictions:monocalcium phosphate, sodium bicarbonate, cornstarch
+	restrictions:Soy Free, Nuts Free, 
 CINNAMON RAISIN BREAD
 
-	restrictions: rice, potato, and sorghum flours
+	restrictions:Gluten, Dairy Free
 DOZEN SAVORY EMPANADAS
 
-	restrictions:potato, and sorghum flours)
+	restrictions:Soy Free, Nuts Free 
 BREAD PUDDING
 
-	restrictions:sodium bicarbonate, cornstarch
+	restrictions:Soy Free, Nuts Free, 
 GINGERBREAD COOKIE
 
-	restrictions:sodium bicarbonate, non-gmo corn starch
+	restrictions:Soy Free, Nuts Free, 
 CHOCOLATE CHIP COOKIE
 
-	restrictions:alcohol, vanilla bean extractives
+	restrictions:Dairy Free
